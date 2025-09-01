@@ -17,7 +17,7 @@ while chances < max_chances:
         # Get user input
         guess = int(input("Enter your guess: "))
     except ValueError:
-        print("Please enter a valid number between 1 and 9.")
+        print("Please enter a valid number between 1 and 99.")
         continue
 
     # Increase chance count
